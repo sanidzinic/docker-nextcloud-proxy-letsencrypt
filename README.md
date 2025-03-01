@@ -5,7 +5,7 @@ This is a personal docker-compose.yml file that I use for the following componen
 * Redis
 * Nextcloud-DB
 * Cron
-* Web proxy
+* Web proxy (nginx-proxy:alpine)
 * Let's Encrypt companion for automatic renewal of SSL certificates
 
 The compose file creates six volumes to separate the web UI, database, and other components.
